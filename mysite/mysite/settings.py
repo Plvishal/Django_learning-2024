@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-EXTERNAL_APPS=["home"]
+EXTERNAL_APPS=["home","rest_framework","api"]
 INSTALLED_APPS+=EXTERNAL_APPS
 
 MIDDLEWARE = [
